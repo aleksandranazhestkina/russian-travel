@@ -1,9 +1,17 @@
 .lead__subtitle {
   margin: 0 auto;
-  padding: 0 320px 64px;
+  padding: 0 172px 64px;
   font-family: 'Inter';
   font-style: normal;
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle{
+    padding-bottom: 56px;
+    padding-left: 144px;
+    padding-right: 144px;
+  }
 }
