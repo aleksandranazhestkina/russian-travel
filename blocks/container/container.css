@@ -1,25 +1,23 @@
-.lead {
+.container {
   max-width: 984px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
-  .lead {
-    width: 90vw;
+  .container {
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .lead {
-    width: 100vw;
+  .container {
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .lead {
-    width: 100vw;
+  .container {
+    max-width: 288px;
   }
 }

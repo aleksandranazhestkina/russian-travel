@@ -1,0 +1,12 @@
+.place__paragraph_second {
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0;
+  padding-top: 27px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph_second {
+    padding-top: 25px;
+  }
+}
